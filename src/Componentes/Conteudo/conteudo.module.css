@@ -4,6 +4,7 @@
     align-items: center;
     padding: 1rem 0 0 0;
     background-image: url("//static-public.klickpages.com.br/tmp/zip/920/images/bg.jpg?v=1532374120");
+    width: 100%;
 }
 
 .conteudo__titulo{
