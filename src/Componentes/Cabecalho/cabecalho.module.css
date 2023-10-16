@@ -1,0 +1,38 @@
+.cabecalho {
+    position: relative;
+    background-color: rgb(20, 18, 18);
+    padding: 0.8rem 5rem;
+    height: 5%;
+}
+
+.cabecalho__imagem {
+    width: 120px;
+    vertical-align: middle;
+    margin: 0.1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .cabecalho__imagem{
+        width: 180px;
+    }
+}
+
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 0;
+    }
+
+    .cabecalho__imagem{
+        margin: 0;
+    }
+}

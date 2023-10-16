@@ -1,0 +1,14 @@
+.video__apresentacao{
+    width: 702px; 
+    height: 395px;
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .video__apresentacao {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        height: 180px;
+        width: 320px;
+    }
+}
