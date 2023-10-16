@@ -9,6 +9,7 @@
 .conteudo__titulo{
     font-size: 2.5rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .conteudo__titulo__excel{

@@ -9,6 +9,7 @@
     transition: 1s all;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .botao:hover{
@@ -26,7 +27,7 @@
 /*Reponsividade mobile*/
 @media only screen and (max-width: 767px) {
     .botao {
-        font-size: 1rem;
+        font-size: 0.9rem;
         border-radius: 1rem;
     }
 }
