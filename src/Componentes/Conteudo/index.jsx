@@ -4,6 +4,7 @@ import VideoApresentacao from '../Video__Apresentacao'
 import Botao from '../Botao'
 import SecaoSobre from '../Secao__Sobre'
 import Certificados from '../Certificados'
+import ConteudoBonus from '../ConteudoBonus/ConteudoBonus'
 
 export default function Conteudo() {
   return (
@@ -15,6 +16,7 @@ export default function Conteudo() {
         </Botao>
         <SecaoSobre />
         <Certificados />
+        <ConteudoBonus />
     </main>
   )
 }
