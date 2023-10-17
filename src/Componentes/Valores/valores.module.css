@@ -1,0 +1,56 @@
+.conteudo__valores{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__valores h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.valores__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfcfc;
+    border-top: 4px solid #47b364;
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+}
+
+.valores__container h5{
+    text-align: center;
+    font-size: 2rem;
+    color: #4f5c71;
+    font-weight: normal;
+    margin: 2rem 0;
+}
+
+.valor__risco{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.conteudo__valores p{
+    margin: 0.6rem;
+    font-size: 1.5rem;
+}
+
+.valor__destaque{
+    font-weight: bold;
+    color: rgb(71, 179, 100);
+}
+
+.lista__pagamento__info{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.lista__pagamento__info strong{
+    color: rgb(71, 179, 100);
+    font-size: 1.4rem;
+}
+

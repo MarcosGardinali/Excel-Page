@@ -1,0 +1,39 @@
+.conteudo__apostilas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo__apostilas h4{
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #444b56;
+    text-align: center;
+}
+
+.conteudo__apostilas img{
+    width: 350px;
+}
+
+.conteudo__apostilas p{
+    color: rgb(10, 10, 10);
+    font-size: 1.4rem;
+    word-wrap: break-word;
+    max-width: 50%;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__apostilas p{
+        max-width: 70%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__apostilas p{
+        max-width: 80%;
+    }
+}

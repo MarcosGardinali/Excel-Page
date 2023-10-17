@@ -9,6 +9,19 @@ body {
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 1.5rem;
+  background-color: #A27B5C;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #DCD7C9;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
