@@ -3,4 +3,16 @@
     flex-direction: column;
     align-items: center;
     background-color: rgba(32,36,39,1);
+    color: #f6f6f6;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.rodape img{
+    width: 30%;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #f6f6f6;
 }
