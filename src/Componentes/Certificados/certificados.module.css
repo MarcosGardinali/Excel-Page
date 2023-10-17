@@ -1,0 +1,60 @@
+.conteudo__certificados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.conteudo__certificados__titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(91, 44, 44);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conteudo__certificados__texto {
+    font-size: 2rem;
+    text-align: center;
+    word-wrap: break-word;
+    color: #444b56;
+}
+
+.conteudo__certificados__texto__lei {
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.imagem__container{
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+}
+
+.imagem__container img{
+    width: 235px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .imagem__container{
+        gap: 5%;
+    }
+
+    .imagem__container img{
+        width: 215px;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__certificados__texto__lei {
+        font-size: 1rem;
+    }
+
+    .imagem__container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

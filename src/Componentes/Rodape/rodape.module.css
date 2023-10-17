@@ -1,0 +1,6 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(32,36,39,1);
+}

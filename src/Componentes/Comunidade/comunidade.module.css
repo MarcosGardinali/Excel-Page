@@ -1,0 +1,25 @@
+.conteudo__comunidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D1D1D;
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+}
+
+.conteudo__comunidade img{
+    width: 349px;
+}
+
+.conteudo__comunidade h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.conteudo__comunidade p{
+    font-size: 1.1rem;
+    word-wrap: break-word;
+    max-width: 65%;
+}

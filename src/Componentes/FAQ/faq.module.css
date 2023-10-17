@@ -1,0 +1,29 @@
+.conteudo__faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.conteudo__faq h3{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.container__faq{
+    max-width: 70%;
+}
+
+.container__faq h4{
+    color: #444b56;
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+.container__faq p{
+    font-weight: 300;
+    color: #7e838c;
+    font-size: 1.2rem;
+    text-align: start;
+}
